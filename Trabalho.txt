@@ -1,0 +1,22 @@
+1- Página principal	
+2- Passar mouse em cima e aparecer o nome do curso
+3- Curso1
+4- curso2
+5- curso3
+6- Botão para a página principal 
+
+
+O Curso de Jogos Digitais é uma formação voltada para o desenvolvimento de jogos, englobando tanto os aspectos técnicos quanto criativos dessa área em expansão. Ele prepara os alunos para atuar em diversas frentes da indústria de jogos, como programação, design e até a parte gerencial, sendo ideal para quem deseja entrar nesse universo e transformar ideias em jogos interativos e inovadores.
+
+Dentro desse curso, há três áreas principais que formam a base de conhecimento para qualquer desenvolvedor de jogos:
+
+1. Introdução à Programação
+A Introdução à Programação no curso de Jogos Digitais tem como objetivo ensinar os conceitos fundamentais da programação, essenciais para criar a lógica por trás dos jogos. O aluno aprende a desenvolver códigos utilizando linguagens de programação, como C++, Python ou até mesmo C#, que são amplamente usadas na indústria. Além disso, são abordados os princípios básicos de algoritmos, estruturas de dados, controle de fluxo e manipulação de variáveis, conceitos que são fundamentais para criar e controlar a dinâmica dos jogos, como movimentação de personagens, interação do jogador e gerenciamento de eventos.
+
+2. Fundamentos de Jogos Digitais
+Os Fundamentos de Jogos Digitais abordam a teoria e a prática por trás do design e desenvolvimento de jogos. O curso explora o que faz um jogo ser envolvente e como diferentes elementos, como regras, objetivos e feedback, influenciam a experiência do jogador. Aqui, os alunos têm contato com tópicos como mecânicas de jogo, sistemas de pontuação, dificuldade progressiva, e o equilíbrio entre diversão e desafio. Além disso, a parte técnica é reforçada com o estudo de motores de jogo como Unity e Unreal Engine, plataformas populares na criação de jogos comerciais e indie.
+
+3. Design de Jogos
+No Design de Jogos, o foco é no processo criativo de criação de jogos, levando o aluno a entender o que torna um jogo não apenas funcional, mas também envolvente e prazeroso para o jogador. São explorados conceitos como narrativa, construção de mundos, interação entre personagens e jogadores, e como criar experiências imersivas. O design de níveis, a escolha de estética visual e sonora, e as decisões sobre a interface de usuário também são discutidos. Além disso, o curso ensina como realizar testes de usabilidade e como interpretar o feedback dos jogadores para melhorar a jogabilidade.
+
+Ao final do curso, os alunos são capacitados para desenvolver seus próprios jogos, desde a concepção da ideia até a implementação e testes, adquirindo uma base sólida para iniciar sua carreira na indústria de jogos digitais.

@@ -7,12 +7,35 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
+            text-align: left;
             margin: 20px;
+            font-size: 20px;
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: left;
+        }
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
         }
         img {
             width: 100%;
@@ -35,16 +58,23 @@
 </head>
 <body>
 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Introdução_á_Programação.html">Introdução à Programação</a></li>
+            <li><a href="Fundamentos_de_Jogos_Digitais.html">Jogos Digitais</a></li>
+            <li><a href="Design_de_Jogos.html">Design de Jogos</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
         <h1>Curso de Ciência da Computação</h1>
-        <p>O curso de Ciência da Computação prepara os alunos para atuar no desenvolvimento de software, inteligência artificial, segurança da informação e muito mais.</p>
-        <img src="Ciencia da computação.jpg" alt="Imagem de Computação">
-        
-        <h2>Disciplinas</h2>
-        <a href="Introdução_á_Programação.html" class="button">Introdução à Programação</a>
-        <a href="Fundamentos_de_Jogos_Digitais.html" class="button">Fundamentos de Jogos Digitais</a>
-        <a href="Design_de_jogos.html" class="button">Design de Jogos</a>
-    </div>
+        <p>Ciência da Computação é o estudo teórico e prático da computação, abrangendo áreas como algoritmos, programação, arquitetura de computadores, inteligência artificial, sistemas de software, hardware, redes e segurança da informação. É uma área estratégica para quem busca destaque no mercado de tecnologia da informação (TI).
 
+            Ela investiga a forma como os sistemas computacionais processam, armazenam e transmitem informações, além de desenvolver soluções para problemas complexos usando algoritmos, linguagens de programação, sistemas operacionais, redes e inteligência artificial.
+            
+            Além disso, a Ciência da Computação está profundamente conectada à inovação tecnológica, desempenhando um papel essencial em diversos setores, como saúde, educação, indústria, entretenimento e finanças.</p>
+        <img src="Ciencia da computação.jpg" alt="Imagem de Computação">
+    </div>
 </body>
 </html>

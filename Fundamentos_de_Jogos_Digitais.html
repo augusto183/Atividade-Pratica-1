@@ -7,8 +7,9 @@
     <style>
         body { 
         font-family: Arial, sans-serif; 
-        text-align: center; 
+        text-align: left; 
         margin: 20px; 
+        font-size: 20px;
         }
         
         img { 
@@ -30,17 +31,50 @@
         .button:hover { 
         background-color: #0056b3; 
         }
+
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }  
     </style>
 </head>
 <body>
 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Introdução_á_Programação.html">Introdução à Programação</a></li>
+            <li><a href="Fundamentos_de_Jogos_Digitais.html">Jogos Digitais</a></li>
+            <li><a href="Design_de_Jogos.html">Design de Jogos</a></li>
+        </ul>
+    </nav>
+
     <h1>Disciplina: Fundamentos de Jogos Digitais</h1>
     <p>Os Fundamentos de Jogos Digitais abordam a teoria e a prática por trás do design e desenvolvimento de jogos. O curso explora o que faz um jogo ser envolvente e como diferentes elementos, como regras, objetivos e feedback, influenciam a experiência do jogador. Aqui, os alunos têm contato com tópicos como mecânicas de jogo, sistemas de pontuação, dificuldade progressiva, e o equilíbrio entre diversão e desafio. Além disso, a parte técnica é reforçada com o estudo de motores de jogo como Unity e Unreal Engine, plataformas populares na criação de jogos comerciais e indie.</p>
     <img src="Fundamentos de Jogos Digitais.jpg" alt="Imagem de Banco de Dados">
-    
-    <br>
-    <a href="index.html" class="button">Voltar para o Curso</a>
-    <a href="Design_de_Jogos.html" class="button">Ir para Fundamentos de Jogos Digitais</a>
 
 </body>
 </html>

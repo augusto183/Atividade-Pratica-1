@@ -8,8 +8,9 @@
 
      body{ 
         font-family: Arial, sans-serif; 
-        text-align: center; 
+        text-align: left; 
         margin: 20px; 
+        font-size: 20px;
      }
 
      img { 
@@ -17,7 +18,33 @@
         max-width: 600px; 
         border-radius: 10px; 
      }
-
+     nav {
+            background-color: #007bff;
+            padding: 10px;
+      }
+      nav ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+      }
+      nav ul li {
+         margin: 0 15px;
+      }
+      nav ul li a {
+         color: white;
+         text-decoration: none;
+         font-weight: bold;
+      }
+      nav ul li a:hover {
+         text-decoration: underline;
+      }
+      img {
+         width: 100%;
+         max-width: 600px;
+         border-radius: 10px;
+      }
      .button { 
         display: inline-block; 
         margin: 10px; 
@@ -28,20 +55,24 @@
         border-radius: 5px; 
      }
      .button:hover { 
-        background-color: #0056b3; 
+         background-color: #0056b3; 
      }
 
     </style>
 </head>
 <body>
+   
+   <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Introdução_á_Programação.html">Introdução à Programação</a></li>
+          <li><a href="Fundamentos_de_Jogos_Digitais.html">Jogos Digitais</a></li>
+          <li><a href="Design_de_Jogos.html">Design de Jogos</a></li>
+      </ul>
+   </nav>
 
     <h1>Disciplina: Introdução à Programação</h1>
     <p>A Introdução à Programação no curso de Jogos Digitais tem como objetivo ensinar os conceitos fundamentais da programação, essenciais para criar a lógica por trás dos jogos. O aluno aprende a desenvolver códigos utilizando linguagens de programação, como C++, Python ou até mesmo C#, que são amplamente usadas na indústria. Além disso, são abordados os princípios básicos de algoritmos, estruturas de dados, controle de fluxo e manipulação de variáveis, conceitos que são fundamentais para criar e controlar a dinâmica dos jogos, como movimentação de personagens, interação do jogador e gerenciamento de eventos.</p>
-    <img src="https://source.unsplash.com/600x300/?coding,programming" alt="Imagem de Programação">
-    
-    <br>
-    <a href="index.html" class="button">Voltar para o Curso</a>
-    <a href="Fundamentos_de_Jogos_Digitais.html" class="button">Ir para Fundamentos_de_Jogos_Digitais.html</a>
-
+    <img src="Introdução á Programação.jpg" alt="Imagem de Programação">
 </body>
 </html>
